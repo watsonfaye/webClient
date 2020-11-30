@@ -1,0 +1,16 @@
+@mixin button-normal{
+  width: 100px;
+  height: 40px;
+  background-color: aquamarine;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid black;
+}
+
+@mixin rect($wid,$hei){
+  width: $wid+px;
+  height: $hei+px;
+}
+@mixin bord($weight:1,$style:solid,$color:black){
+  border:$weight+px $style $color;
+}
